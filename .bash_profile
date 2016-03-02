@@ -25,8 +25,8 @@ bind "set completion-map-case on"
 # Display matches for ambiguous patterns at first tab press
 bind "set show-all-if-ambiguous on"
 
+############################
 ## SANE HISTORY DEFAULTS ##
-
 # Append to the history file, don't overwrite it
 shopt -s histappend
 
