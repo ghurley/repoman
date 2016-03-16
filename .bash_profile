@@ -54,8 +54,10 @@ HISTTIMEFORMAT='%F %T '
 ## BETTER DIRECTORY NAVIGATION ##
 # Prepend cd to directory names automatically
 # shopt -s autocd
-# Correct spelling errors during tab-completion
+# Correct spelling errors during tab-completion.
+# Only available in bash 4.0 or better (i.e. not in stock OSX).
 shopt -s dirspell
+
 # Correct spelling errors in arguments supplied to cd
 shopt -s cdspell
 
