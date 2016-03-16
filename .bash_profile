@@ -57,6 +57,7 @@ HISTTIMEFORMAT='%F %T '
 # Correct spelling errors during tab-completion.
 # Only available in bash 4.0 or better (i.e. not in stock OSX).
 shopt -s dirspell
+shopt -s direxpand
 
 # Correct spelling errors in arguments supplied to cd
 shopt -s cdspell
