@@ -1,0 +1,11 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    // Make the tab/editor switching work as in other mac programs. This
+    // countermands the folding commands but I never use those.
+    { "key": "shift+cmd+]",         "command": "workbench.action.nextEditor" },
+    { "key": "shift+cmd+[",          "command": "workbench.action.previousEditor" },
+    { "key": "shift+cmd+[",           "command": "-editor.fold",
+                                     "when": "editorFocus" },
+    { "key": "shift+cmd+]",           "command": "-editor.unfold",
+                                     "when": "editorFocus" }
+]
