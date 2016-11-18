@@ -1,5 +1,8 @@
+;; Reload this file with M-x load-file
+;; Reload individual sexp (with point in or at end of sexp) with C-M-x
+;; or M-x eval-defun
 ;;-----------------------------------------------------------------------------
-;; Package related. May need to install clisp via homebrew first
+;; Package related. May need to M-x package-refresh-contents
 ;;-----------------------------------------------------------------------------
 (require 'package)
 (add-to-list 'package-archives
@@ -8,12 +11,13 @@
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
+
+;; Need to install clisp (via Homebrew) first
 (setq inferior-lisp-program "/usr/local/bin/clisp")
 
 ;; default to better frame titles
 (setq frame-title-format
       (concat  "%b - emacs@" (system-name)))
-
 
 (global-font-lock-mode t)
 (setq transient-mark-mode t)
@@ -27,6 +31,8 @@
 (setq scroll-step 1)
 
 (require 'ido)
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
 (ido-mode t)
 
 ;; Improce ANSI color prompts in shell-mode (emacs22)
