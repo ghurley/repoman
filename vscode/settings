@@ -1,0 +1,30 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.rulers": [80, 120],
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/.vscode/tags": true
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/usr/local/bin/flake8",
+    "python.linting.lintOnTextChange": true,
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 0,
+    "git.confirmSync": false,
+    //"editor.renderIndentGuides": true
+    "gitProjectManager.baseProjectsFolders": [
+        "/home/gavinhurley/src"
+    ],
+    "git.enableSmartCommit": true,
+    "workbench.commandPalette.history": 3,
+    "editor.autoIndent": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true
+}
