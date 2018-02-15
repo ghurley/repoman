@@ -3,7 +3,7 @@ source ~/bin/git-prompt.sh
 
 CLICOLOR=""
 export CLICOLOR
-export GREP_OPTIONS='--color=always'
+export GREP_OPTIONS='--color=auto'
 
 alias l='ls -lF'
 alias l.='ls -AlF'
