@@ -1,7 +1,8 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.rulers": [80, 120],
     "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -9,22 +10,56 @@
         "**/*.pyc": true,
         "**/.vscode/tags": true
     },
+
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "/usr/local/bin/flake8",
-    "python.linting.lintOnTextChange": true,
-    "workbench.sideBar.location": "right",
+    "python.linting.lintOnSave": true,
+    "python.pythonPath": "/usr/bin/python",
+
     "window.zoomLevel": 0,
+
     "git.confirmSync": false,
-    //"editor.renderIndentGuides": true
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
     "gitProjectManager.baseProjectsFolders": [
         "/home/gavinhurley/src"
     ],
-    "git.enableSmartCommit": true,
-    "workbench.commandPalette.history": 3,
+
+    "editor.rulers": [80, 120],
     "editor.autoIndent": true,
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 12,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "editor.tokenColorCustomizations": {
+        "[Dracula]": {
+            "comments": "#a7abc4"
+        }
+    },
+
+    "workbench.sideBar.location": "right",
+    "workbench.commandPalette.history": 4,
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorCustomizations": {
+        "[Dracula]": {
+            "editor.findMatchHighlightBorder": "#ff0000",
+            "editor.selectionHighlightBorder": "#ebdede",
+            "contrastActiveBorder": "#c59898",
+            "tab.inactiveForeground": "#aaaab4"
+        }
+    },
+
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "cSpell.userWords": [
+        "UNPROCESSABLE",
+        "lyft",
+        "pytest",
+        "statsd",
+        "struct"
+    ],
+    "sourcegraph.url": "https://sourcegraph.ingress.devsphere.us-east-1.k8s.lyft.net",
 }
