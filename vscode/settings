@@ -14,9 +14,13 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.linting.flake8Path": "/usr/local/bin/flake8",
+    "python.linting.flake8Path": "/Users/gavinhurley/Library/Python/3.7/bin/flake8",
     "python.linting.lintOnSave": true,
-    "python.pythonPath": "/usr/bin/python",
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.jediEnabled": false,
+    "python.autoComplete.extraPaths": [
+        "/Users/gavinhurley/src/go/src/github.com/lyft/python-lyft-stdlib"
+    ],
 
     "window.zoomLevel": 0,
 
@@ -27,22 +31,24 @@
         "/home/gavinhurley/src"
     ],
 
-    "editor.rulers": [80, 120],
     "editor.autoIndent": true,
+    "editor.scrollBeyondLastLine": false,
     "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 12,
     "editor.fontLigatures": true,
+    "editor.fontSize": 12,
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
+    "editor.rulers": [80, 120],
     "editor.tokenColorCustomizations": {
         "[Dracula]": {
             "comments": "#a7abc4"
         }
     },
+    "explorer.openEditors.visible": 0,
 
     "workbench.sideBar.location": "right",
     "workbench.commandPalette.history": 4,
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Cobalt2",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.colorCustomizations": {
         "[Dracula]": {
@@ -50,16 +56,45 @@
             "editor.selectionHighlightBorder": "#ebdede",
             "contrastActiveBorder": "#c59898",
             "tab.inactiveForeground": "#aaaab4"
+        },
+        "[Cobalt2]": {
+            "editor.findMatchHighlightBorder": "#ff0000",
+            "editor.selectionHighlightBorder": "#ebdede",
+            "contrastActiveBorder": "#c59898",
+            "tab.inactiveForeground": "#aaaab4"
+        },
+        "[Quiet Light]": {
+            "editor.findMatchHighlightBorder": "#ff0000",
+            "editor.selectionHighlightBorder": "#111111",
+            //"contrastActiveBorder": "#c59898",
+            //"tab.inactiveForeground": "#aaaab4"
+        },
+        "[NetBeans Light Theme]": {
+            "editor.findMatchHighlightBorder": "#ff0000",
+            "editor.selectionHighlightBorder": "#111111",
+            //"contrastActiveBorder": "#c59898",
+            //"tab.inactiveForeground": "#aaaab4"
         }
     },
 
     "java.errors.incompleteClasspath.severity": "ignore",
     "cSpell.userWords": [
+        "Aptiv",
+        "Oauth",
         "UNPROCESSABLE",
+        "astimezone",
+        "geohashes",
+        "groupby",
+        "incentivized",
+        "incr",
+        "iterrows",
         "lyft",
         "pytest",
+        "pytz",
+        "redispatch",
         "statsd",
-        "struct"
+        "struct",
+        "tzinfo"
     ],
     "sourcegraph.url": "https://sourcegraph.ingress.devsphere.us-east-1.k8s.lyft.net",
 }
