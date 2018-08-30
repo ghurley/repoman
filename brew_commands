@@ -1,0 +1,28 @@
+autojump
+bash
+bash-completion
+bat  # replacement for cat
+calc
+cloc
+exa  # replacement for ls
+fd  # replacement for find
+figlet # FIGlet is a program for making large letters out of ordinary text
+fish
+fzf  # command line fuzzy finder
+gcal
+generate-json-schema
+htop  # replacement for top
+hub
+jq
+jsonpp
+markdown
+ncdu  # replacement for du
+pre-commit
+prettyping  # replacement for ping
+rlwrap
+sbcl
+set-simulator-location
+the_silver_searcher
+tldr  # Community driven man alternative
+tree
+watchman
